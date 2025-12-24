@@ -1,0 +1,703 @@
+*{
+    margin: 0px;
+}
+body{
+    background: #FFFFFF;
+    color: #111827;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+.border{
+    color: #E5E7EB;
+    background: #6B7280;
+}
+
+nav {
+    height: 129px;
+    background: rgb(255 255 255 / 96%);
+    display: flex;
+    box-shadow: 1px 1px 6px #8080801a;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+button.logout-button {
+    font-size: 11px;
+    padding-block: 8px;
+    padding-inline: 18px;
+    border: none;
+    color: #ffffff;
+    background: #116ec5;
+    
+}
+
+
+.navlink {
+    width: 74%;
+    gap: 96px;
+    display: flex;
+}
+a{
+    text-decoration: none;
+      font-family: 'Inter', sans-serif;
+  font-weight: 500;
+    color: #111827;
+    
+}
+.logo {
+    padding-left: 22px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 1px;
+
+
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+p.name-author {
+    width: 100%;
+    text-align: end;
+    font-size: 9px;
+    letter-spacing: 1px;
+    margin-block: 20px;
+}
+.page1-content {
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+.img-box {
+    display: flex;
+    justify-content: flex-end;
+}
+img.image1 {
+    height: 100vh;
+}
+.card1 {
+    height: auto;
+    width: 75%;
+}
+img.cardimg {
+    width: 100%;
+    height: 60vh;
+}
+.box-card1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h3.head1 {
+    font-size: 21px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.658);
+    margin-block: 6px;
+}
+p.para1 {
+    font-size: 14px;
+    color: #00000087;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+}
+.title-content {
+    padding-block: 6px;
+}
+.title-page2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 23px;
+    gap: 29px;
+    width: 50%;
+}
+.head3 {
+    margin-bottom: 19px;
+    color: #00000093;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.page2 {
+    height: auto;
+    display: flex;
+    padding-top: 60px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card2 {
+    width: 100%;
+    display: flex;
+    margin-block: 60px;
+}
+.main-page2 {
+    width: 90%;
+}
+.image2cards {
+    width: 50%;
+}
+img.image-page2-1 {
+    width: 100%;
+}
+.boxead {
+    display: flex;
+    padding-block:10px;
+    width: 80%;
+}
+h1.header-page2 {
+    font-size: 40px;
+    margin-top: 40px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: #474343;
+}
+span.borderspan {
+    border-bottom: 2px solid;
+    padding-block: 11px;
+}
+.main-page3 {
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+img.image1-box3 {
+    width: 100%;
+    height: 130vh;
+}
+.image1-box3s {
+    width: 100%;
+}
+.box1 {
+    display: flex;
+    justify-content: flex-end;
+}
+.page3 {
+    height: 130vh;
+    display: flex;
+    background: #80808019;
+    justify-content: center;
+    width: 100%;
+}
+.box1ss {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p.page3-text {
+    width: 85%;
+    text-align: center;
+    font-family: cursive;
+    line-height: 50px;
+    color: #292424cc;
+    font-size: 1.5rem;
+    padding-inline: 41px;
+}
+button.btnexplore {
+    padding-block: 17px;
+    padding-inline: 15px;
+    background: transparent;
+    border: 1px solid;
+}
+.button-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+button.btnexplore {
+    padding-block: 26px;
+    padding-inline: 56px;
+    margin-block: 20px;
+    background: transparent;
+    border: 1px solid;
+}
+.text-page3 {
+    width: 78%;
+}
+
+
+.scard {
+    height: 90vh;
+    width: 48%;
+    margin-block: 10px;
+}
+img.blog-image {
+    width: 100%;
+    height: 60vh;
+}
+.blog-container {
+    height: auto;
+    gap: 21px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.content-blog {
+    padding: 10px;
+}
+h2.bloghead {
+    font-size: 24px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-block: 16px;
+}
+p.blogpara1 {
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    margin-bottom: 13px;
+}
+p.blogpara2 {
+    width: 100%;
+    text-align: end;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+h1.blog-heading {
+    width: 100%;
+    padding-left: 60px;
+    font-weight: 100;
+    margin-block: 54px;
+    font-size: 3rem;
+    letter-spacing: 4px;
+}
+.manage-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+}
+.main-form-register {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+form.form-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first-forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+input.login-input {
+    padding-block: 10px;
+    width: 41%;
+    padding-inline: 11px;
+}
+button.btn-login {
+    padding-block: 8px;
+    padding-inline: 33px;
+    border: none;
+    color: white;
+    background: #0255e8;
+}
+.first-form {
+    height: 60vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    width: 50%;
+}
+.register-input {
+    width: 100%;
+    padding-block: 12px;
+    margin-block: 5px;
+    padding-inline: 13px;
+    border: 1px solid;
+    background: white;
+    border-radius: 11px;
+}
+.submitbtonregister {
+    padding-block: 10px;
+    padding-inline: 24px;
+    margin-block: 9px;
+    border: none;
+    font-size: 14px;
+    border-radius: 3px;
+    background: #0556e5;
+    color: white;
+}
+button.crud {
+    padding-block: 10px;
+    padding-inline: 22px;
+    margin-block: 11px;
+    margin-inline: 8px;
+    border: none;
+    background: #0556e5;
+    color: white;
+}
+button.crud-del {
+    padding-block: 10px;
+    padding-inline: 22px;
+    margin-block: 11px;
+    border: none;
+    margin-right: 5px;
+    background: #b10404;
+    color: white;
+}
+button.btncrud {
+    padding-block: 9px;
+    border: none;
+    color: white;
+    background: #0556e5;
+}
+button.btncrud-can {
+    padding-block: 9px;
+    border: none;
+    color: white;
+    background: #000000;
+}
+.loginbtn{
+    background: transparent;
+    border: none;
+}
+input.title-edit {
+    padding-block: 10px;
+    padding-inline: 10px;
+}
+textarea.title-edits {
+    padding-block: 18px;
+    padding-inline: 12px;
+}
+h2.headregister {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 26px;
+}
+.item-pad {
+    padding: 8px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-create-blog {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form.form-create-blog {
+    height: 50vh;
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+}
+input.input-create {
+    padding-block: 12px;
+    margin-block: 10px;
+    padding-inline: 12px;
+}
+button.create-btn {
+    padding-block: 12px;
+    color: white;
+    background: #0255e8;
+    border: none;
+}
+span.spanborder {
+    font-size: 42px;
+    font-weight: 100;
+    padding-block: 4px;
+    border-bottom: 2px solid;
+    color: #0255e8;
+}
+h2.head-create-blog {
+    margin-block: 36px;
+    letter-spacing: 1px;
+}
+
+.hamburgr {
+  display: none;
+  font-size: 26px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.my-blogcontainer {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2.head2 {
+    margin-block: 46px;
+}
+p.message {
+    padding-block: 12px;
+    color: white;
+    padding-inline: 15px;
+    background: #0255e8;
+    border: none;
+    margin-block: 38px;
+}
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    width: 72%;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.mai-ab {
+    display: flex;
+    justify-content: center;
+}
+.about-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.about-right {
+  flex: 2;
+  min-width: 300px;
+}
+
+.about-right h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+.about-right p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .hamburgr {
+    display: block;
+    color: black;
+  }
+  p.message {
+    padding-block: 12px;
+    color: white;
+    padding-inline: 15px;
+    background: #0255e8;
+    border: none;
+    margin-block: 38px;
+}
+  .my-blogcontainer {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form.form-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+button.logout-button {
+    font-size: 12px;
+    padding-block: 13px;
+    padding-inline: 18px;
+    width: 29%;
+    letter-spacing: 2px;
+    border: none;
+    color: #ffffff;
+    background: #116ec5;
+}
+.submitbtonregister {
+    padding-block: 10px;
+    padding-inline: 20px;
+    margin-block: 9px;
+    border: none;
+    font-size: 14px;
+    border-radius: 3px;
+    background: #0255e9;
+    color: white;
+}
+.navlink {
+    display: none;
+    flex-direction: column;
+    background: #ffffff;
+    position: absolute;
+    top: 127px;
+    left: 0;
+    width: 100%;
+    padding: 16px;
+}
+.navlink.open {
+    display: flex;
+    gap: 58px;
+}
+  nav {
+    background: white;
+}
+.page1-content {
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+}
+.img-box {
+    display: flex;
+    width: 100% !important;
+    justify-content: flex-start;
+}
+.box-card1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100% !important;
+}
+.card2 {
+    width: 100%;
+    display: flex;
+    margin-block: 60px;
+    flex-direction: column;
+}
+.image2cards {
+    width: 100%;
+}
+h3.head3 {
+    margin: 0px;
+    margin-top: 57px;
+    margin-bottom: 10px;
+}
+.title-page2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0px;
+    gap: 29px;
+    width: 100%;
+}
+h1.headerhome {
+    font-size: 23px;
+    margin-top: 21px;
+}
+.main-page3 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.box1 {
+    height: auto !important;
+    width: 100% !important;
+}
+p.page3-text {
+    width: 100%;
+    text-align: center;
+    font-family: cursive;
+    line-height: 33px;
+    color: #292424cc;
+    font-size: 1rem;
+    padding-inline: 0px;
+}
+.page3 {
+    height: auto;
+}
+.box1ss {
+    display: flex;
+    height: auto !important;
+    align-items: center;
+    width: 100% !important;
+    padding-block: 60px;
+    justify-content: center;
+}
+img.image1-box3 {
+    width: 100%;
+    height: 100vh;
+}
+.scard {
+    height: auto;
+    width: 100%;
+    margin-block: 10px;
+}
+
+form.form-create-blog {
+    height: 50vh;
+    display: flex;
+    width: 64%;
+    flex-direction: column;
+}
+.page1 {
+    height: auto;
+    width: 100%;
+    overflow-x: hidden;
+}
+.main-create-blog {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.first-form {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.scards {
+    height: auto;
+    width: 90%;
+}
+.blog-detail {
+    margin-bottom: 60px;
+}
+}
+img.img-my-blog {
+    height: 60vh;
+    width: 100%;
+}
+.edit-form {
+    gap: 14px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-block: 15px;
+}
+.scards {
+    height: auto;
+    width: 47%;
+}
+.main-blog-my {
+    height: auto;
+    width: 100%;
+    display: flex;
+    gap: 27px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
