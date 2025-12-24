@@ -238,7 +238,7 @@ button.btnexplore {
 
 
 .scard {
-    height: 90vh;
+    height: auto;
     width: 48%;
     margin-block: 10px;
 }
