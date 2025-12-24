@@ -28,7 +28,7 @@ if(!blog){
       <img className='image-page2-1' src={blog.image}/></div>
       <div className='title-page2' >
         <h1 className='headerhome'>{blog.title}</h1>
-      <p>{blog.content.slice(0, 80)}...</p>
+      <p>{blog.content}...</p>
       <p><b>—</b> {blog.author?.name}</p>
       </div>
     </div>
