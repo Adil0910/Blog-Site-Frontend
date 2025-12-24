@@ -522,7 +522,7 @@ p.message {
     margin-block: 38px;
 }
   .my-blogcontainer {
-    height: 100vh;
+    height: auto !important;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -665,6 +665,7 @@ img.image1-box3 {
     margin-block: 10px;
 }
 
+
 form.form-create-blog {
     height: 50vh;
     display: flex;
@@ -692,11 +693,18 @@ form.form-create-blog {
     justify-content: center;
 }
 .scards {
-    height: auto;
-    width: 90%;
+    height: auto !important;
+    width: 90% !important;
 }
 .blog-detail {
     margin-bottom: 60px;
+}
+.edit-form {
+    gap: 14px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-block: 15px;
 }
 }
 img.img-my-blog {
