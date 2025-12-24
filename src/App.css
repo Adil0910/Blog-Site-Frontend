@@ -47,12 +47,24 @@ a{
 }
 .logo {
     padding-left: 22px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 40px;
-  letter-spacing: 1px;
-
-
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    display: flex;
+    letter-spacing: 1px;
+}
+.logos {
+    padding-left: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #1b11c5;
+    display: flex;
+    letter-spacing: 1px;
+}
+img.logoimg {
+    height: 56px;
+    width: 30%;
 }
 .page1{
     height: 100vh;
@@ -613,6 +625,15 @@ h1.headerhome {
 .box1 {
     height: auto !important;
     width: 100% !important;
+}
+.logos {
+    padding-left: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #1b11c5;
+    display: flex;
+    letter-spacing: 1px;
 }
 p.page3-text {
     width: 100%;

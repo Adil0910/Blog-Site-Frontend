@@ -18,7 +18,7 @@ function Navbar() {
 
   return (
     <nav>
-      <div className='logo'><h1 className='logo'>NEXO</h1></div>
+      <div className='logo'><h1 className='logos'>NEXO</h1><img className='logoimg' src='image/blog.jpeg'/></div>
         <button className='hamburgr'onClick={()=>setopen(!open)}>☰</button>
 
       <div className={`navlink ${open ? "open":""}`}>
