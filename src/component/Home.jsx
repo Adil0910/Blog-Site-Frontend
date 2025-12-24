@@ -144,9 +144,7 @@ if(load){
       </div>
 </div>
       </div>
-      <div className='page1'>4</div>
-      <div className='page1'>5</div>
-      <div className='page1'>6</div>
+      
 
       <Footer/>
     </div>
